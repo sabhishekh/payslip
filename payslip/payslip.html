@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Demonstrating Classes - Employee PaySlip
+        </title>
+        <script src="empDetails.js"></script>
+        <link rel="stylesheet" href="empApp.css">
+    </head>
+    <body>
+        <div class="title">
+            Employee Pay Slip Generator
+        </div>
+        <ul class="empReadBlock">
+            <li>
+                <div class="txtLabel">Employee Name:</div>
+                <div class="controller"><input type="text" id="ename"></div>
+                 
+            </li>
+            <li>
+                <div class="txtLabel">Department:</div>
+                <div class="controller">
+                    <select name="" id="edept">
+                        <option value="IT">IT</option>
+                        <option value="Accounts">Accounts</option>
+                        <option value="HR">HR</option>
+                        <option value="Sales">SAles</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="txtLabel">Age</div>
+                <div class="controller">
+                    <input type="text" id="eAge">
+                </div>
+            </li>
+            <li>
+                <div class="txtLabel"> Basic Salary</div>
+                <div class="controller">
+                    <input type="text" id="eBasicSal">
+                </div>
+            </li>
+            <li>
+                <input type="button" value="Generate Payslip" onclick="generatePaySlip()">
+            </li>
+        </ul>
+        <div class="displayBlock">
+        </div>
+    </body>
+</html>

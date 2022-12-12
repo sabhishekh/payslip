@@ -1,0 +1,46 @@
+.empReadBlock {
+    border: 1px solid;
+    width: 500px;
+    border: 1px solid;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+li {
+    list-style: none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    clear: both;
+    height: 30px;
+
+}
+
+
+.title {
+    border: 1px solid;
+    text-align: center;
+    color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.displayBlock {
+    border: 1px solid;
+}
+
+.displayBlock div {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.txtLabel {
+    width: 150px;
+}
+.txtLabel, .controller {
+    float: left;
+}
